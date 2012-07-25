@@ -9,6 +9,9 @@
 , "repository":
   { "type" : "git"
   , "url" : "https://github.com/zpoley/json-command.git"
-  }
+  },
+"dependencies": {
+	"eyes": "https://nodeload.github.com/jjupiter/eyes.js/tarball/master"
+}
 , "bin" : { "json" : "./bin/json.js" }
 }
